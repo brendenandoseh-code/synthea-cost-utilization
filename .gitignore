@@ -1,0 +1,12 @@
+# Raw Synthea data is large (~50 MB) and freely downloadable — not committed.
+# See README "Reproduce it" for the download link; build.py expects data/ populated.
+data/
+*.zip
+
+# Generated artifacts — rebuild with `py build.py`
+synthea.db
+__pycache__/
+*.pyc
+
+# Jupyter autosave
+.ipynb_checkpoints/

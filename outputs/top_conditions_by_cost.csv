@@ -1,0 +1,21 @@
+condition,snomed_code,patients,condition_records,encounter_cost
+Normal pregnancy (finding),72892002,14,32,1085745.0
+Medication review due (situation),314529007,113,972,975445.0
+Stress (finding),73595000,92,414,488028.0
+Gingival disease (disorder),18718003,51,97,485858.0
+Gingivitis (disorder),66383009,95,370,464665.0
+Full-time employment (finding),160903007,92,359,450702.0
+Septic shock (disorder),76571007,4,4,442755.0
+Polyp of colon (disorder),68496003,11,12,346777.0
+Sepsis (disorder),91302008,7,7,296815.0
+Primary dental caries (disorder),109570002,49,78,292827.0
+History of coronary artery bypass grafting (situation),399261000,10,10,276827.0
+Part-time employment (finding),160904001,76,237,263478.0
+Acute respiratory distress syndrome (disorder),67782005,1,1,200809.0
+Bacterial infectious disease (disorder),87628006,1,1,200809.0
+Injury of kidney (disorder),40095003,1,1,200809.0
+Limited social contact (finding),423315002,65,154,196512.0
+Social isolation (finding),422650009,61,150,186243.0
+Not in labor force (finding),741062008,56,140,178813.0
+History of tubal ligation (situation),267020005,20,20,154402.0
+Infection of tooth (disorder),427898007,22,28,148640.0

@@ -1,0 +1,11 @@
+payer_name,payer_type,encounters,total_cost,payer_covered,patient_responsibility,pct_covered
+Medicare,Government,1767,4460587.0,3583070.0,877517.0,80.3
+Medicaid,Government,811,2257344.0,2207058.0,50286.0,97.8
+UnitedHealthcare,Private,478,2183279.0,1787483.0,395796.0,81.9
+Humana,Private,1016,1430162.0,691201.0,738961.0,48.3
+NO_INSURANCE,Uninsured,683,1427522.0,0.0,1427522.0,0.0
+Dual Eligible,Government,597,1072050.0,1052100.0,19950.0,98.1
+Blue Cross Blue Shield,Private,373,1064156.0,607380.0,456776.0,57.1
+Anthem,Private,554,997907.0,819766.0,178141.0,82.1
+Aetna,Private,685,882992.0,544485.0,338507.0,61.7
+Cigna Health,Private,246,526592.0,310656.0,215936.0,59.0
