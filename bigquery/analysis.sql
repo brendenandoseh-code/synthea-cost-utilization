@@ -80,7 +80,7 @@ SELECT PROCEDURECODE AS procedure_code,
        COUNT(*)      AS claim_lines,
        ROUND(SUM(SAFE_CAST(AMOUNT AS FLOAT64)), 0) AS total_charged
 FROM synthea.claims_transactions
-WHERE TYPE = 'CHARGE' AND PROCEDURECODE IS NOT NULL AND PROCEDURECODE != ''
+WHERE TYPE = 'CHARGE' AND PROCEDURECODE IS NOT NULL   -- empty codes load as NULL under auto-detect
 GROUP BY PROCEDURECODE ORDER BY total_charged DESC LIMIT 20;
 
 -- Q6. Cost per patient by age band and sex.
