@@ -18,7 +18,7 @@ Synthea's CSV export models a full claims footprint: `patients` (demographics, e
 1. **Load** the five relevant Synthea CSVs into SQLite (`build.py`, standard library only).
 2. **Clean** with two SQL views (`sql/01_create_and_load.sql`) — cast the cost fields, split each encounter into payer-covered vs. patient-responsibility, classify payers as Government / Private / Uninsured, and roll cost up per patient.
 3. **Analyze** with six queries (`sql/02_analysis.sql`) → six Tableau-ready CSVs.
-4. **Visualize** in Tableau (`tableau/DASHBOARD_GUIDE.md`).
+4. **Visualize** in Tableau Public.
 
 ## Key findings *(synthetic data — illustrative, not real)*
 
@@ -50,7 +50,7 @@ Synthea's CSV export models a full claims footprint: `patients` (demographics, e
 #    https://synthetichealth.github.io/synthea-sample-data/downloads/latest/synthea_sample_data_csv_latest.zip
 # 2. Run the pipeline:
 py build.py        # loads to SQLite, runs the SQL, writes outputs/
-# then open Tableau and follow tableau/DASHBOARD_GUIDE.md
+# then build the dashboard in Tableau Public
 ```
 
 ## Files
@@ -61,6 +61,5 @@ synthea-cost-utilization/
 ├─ data/                          ← Synthea CSVs (not committed; download — see above)
 ├─ sql/01_create_and_load.sql     ← cleaning views (cost split, payer type, per-patient rollup)
 ├─ sql/02_analysis.sql            ← 6 analysis queries
-├─ outputs/                       ← Tableau-ready CSVs (generated)
-└─ tableau/DASHBOARD_GUIDE.md     ← dashboard build steps
+└─ outputs/                       ← Tableau-ready CSVs (generated)
 ```
