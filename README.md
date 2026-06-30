@@ -1,7 +1,7 @@
 # Healthcare Cost & Utilization on Synthetic Claims Data (Synthea)
 
 **Author:** Brenden Andoseh · [LinkedIn](https://www.linkedin.com/in/brenden-andoseh-189484177/)
-**Stack:** SQL (SQLite) · Python (stdlib) · Tableau
+**Stack:** SQL (SQLite **+ BigQuery**) · Python (stdlib) · Tableau — *also runs on BigQuery, see [`bigquery/`](bigquery/)*
 **Data:** [Synthea](https://synthetichealth.github.io/synthea/) — MITRE's open-source synthetic patient generator (sample set: 113 patients · 7,210 encounters · 118,466 claim-line transactions)
 
 > I built this to practice the claims-data work that U.S. healthcare-analyst roles assume — payer mix, cost and utilization, high-cost cohorts, and claim-line charges — on data I can share openly. Synthea generates realistic but entirely synthetic patients, so there's no PHI and nothing to conclude about real people; the point is the pipeline and the SQL, not the patients.
